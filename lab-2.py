@@ -21,7 +21,7 @@ def perform_division(a,b):
     try:
         operations_count += 1
         return int(a)/int(b)
-    except Exception as e:
+    except ZeroDivisionError as e:
         pass
 
 
